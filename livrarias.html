@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index4.html">
+    <title>Indicação de lugares</title>
+</head>
+<style>
+    h2 {
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(36, 13, 58);
+    }
+
+    body {
+        background: #c8a2c8;
+    }
+
+    header {
+        width: 100%;
+        background-color: rgb(189, 134, 181);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .menu li {
+        display: inline-flex;
+        color: black
+    }
+
+    .menu li a {
+        justify-content: space-around;
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        padding: 10px 15px;
+        border-radius: 15px;
+
+    }
+
+    .produtos li {
+        display: inline-block
+    }
+
+    .sebo {
+        width: 200;
+        height: 200px;
+        border-width: medium;
+        border-style: solid;
+        border-color: rgb(191, 25, 241);
+
+    }
+
+    .seboamigo {
+        width: 300px;
+        height: 200px;
+        border-width: medium;
+        border-style: solid;
+        border-color: rgb(240, 32, 195);
+    }
+
+    .produtos {
+        width: 940px;
+        margin: 0 auto;
+        border-width: medium;
+        border-style: solid;
+        border-color: rgb(154, 107, 168);
+    }
+
+    .biblioteca {
+        width: 290px;
+        height: 200;
+        margin: 0 auto;
+        border-width: medium;
+        border-style: solid;
+        border-color: rgb(154, 107, 168);
+
+    }
+
+    table {
+        margin: 20px 0 40px;
+
+    }
+
+    thead {
+        background: #555555;
+        color: white;
+        font-weight: bold;
+    }
+
+    td,
+    th {
+        border: 1px solid #000000;
+        padding: 8px 10px;
+    }
+
+    p {
+        font-style: italic;
+    }
+
+    .mapa {
+        text-align: center;
+        padding: 3em 30px;
+        background: linear-gradient(rgb(171, 171, 212));
+    }
+</style>
+
+<body>
+    <header>
+        <div class="container-logo">
+            <div class="logo-texto">
+
+                <h1> Easy Book </h1>
+            </div>
+
+        </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Inicial </a></li>
+                <li><a href="#">Sobre nós </a></li>
+                <li><a href="itens.html">Itens </a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="contato.html">Contato </a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <ul class="produtos">
+            <li>
+                <h2> Indicações de livrarias locais </h2>
+                <h3> Sebo da Jozi </h3>
+                <h4>Endereço: R. Tristão de Castro, 185 - Centro, Uberaba - MG, 38010-250</h4>
+                <h4> Telefone: (34) 3317-6060</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Dias</td>
+                            <td>Horários</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td>Segunda</td>
+                            <td>13:30–18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Terça</td>
+                            <td>13:30–18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>13:30–18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta</td>
+                            <td>13:30–18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>13:30–18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sabado</td>
+                            <td>10:00-13:00</td>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td>Fechado</td>
+                        </tr>
+                    </tbody>
+                    </thead>
+                </table>
+                <br>
+
+                <img class="sebo" src="sebodajozi.jpg">
+            </li>
+            <section class="mapa">
+                <p class="titulo-centralizado">Localização</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3755.077957922873!2d-47.940519486101!3d-19.75184218670375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad034277193bd%3A0x231d22c3f7459ffb!2sR.%20Trist%C3%A3o%20de%20Castro%2C%20185%20-%20Centro%2C%20Uberaba%20-%20MG%2C%2038010-250!5e0!3m2!1spt-BR!2sbr!4v1669922170224!5m2!1spt-BR!2sbr"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <li>
+                <h3> Biblioteca municipal de Uberaba </h3>
+                <h4> Endereço: R. Alaor Prata, 317 - Estados Unidos, Uberaba - MG, 38015-040</h4>
+                <h4> Telefone: (34) 3332-1900</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Dias</td>
+                            <td>Horários</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>08:00–21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Terça</td>
+                            <td>08:00–21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>08:00–21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta</td>
+                            <td>08:00–21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>08:00–21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sabado</td>
+                            <td>08:00–13:00</td>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td>Fechado</td>
+                        </tr>
+                </table>
+                <br>
+                <img class="biblioteca" src="bibli.jpg">
+                <section class="mapa">
+                    <p class="titulo-centralizado">Localização</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3755.134485824303!2d-47.934454686101006!3d-19.74943998670507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad0320fc88793%3A0x36989863a0037517!2sR.%20Alaor%20Prata%2C%20317%20-%20Estados%20Unidos%2C%20Uberaba%20-%20MG%2C%2038015-010!5e0!3m2!1spt-BR!2sbr!4v1669922312409!5m2!1spt-BR!2sbr"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </li>
+            <li>
+                <h3> Sebo Amigos do Livro </h3>
+                <h4> Endereço: Av. da Saudade, 140 - Santa Marta, Uberaba - MG, 38061-000</h4>
+                <h4> Telefone: (34) 99660-6438</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Dias</td>
+                            <td>Horários</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>Segunda</td>
+                            <td>09:00–18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Terça</td>
+                            <td>09:00–18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>09:00–18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta</td>
+                            <td>09:00–18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>09:00–18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sabado</td>
+                            <td>09:00–13:00</td>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td>Fechado</td>
+                        </tr>
+                    </tbody>
+                    </thead>
+                </table>
+                <img class="seboamigo" src="seboamigo.jpg">
+                <section class="mapa">
+                    <p class="titulo-centralizado">Localização</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3755.1874850304002!2d-47.94992818610112!3d-19.74718748670633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad1b39f668c4f%3A0x59f4fdbd4490346f!2sAv.%20da%20Saudade%2C%20140%20-%20Santa%20Marta%2C%20Uberaba%20-%20MG%2C%2038061-000!5e0!3m2!1spt-BR!2sbr!4v1669922097868!5m2!1spt-BR!2sbr"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </li>
+        </ul>
+    </main>
+
+</body>
+
+</html>

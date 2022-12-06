@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body {
+            background: #c8a2c8;
+        }
+
+        header {
+            width: 100%;
+            background-color: rgb(189, 134, 181);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .menu li {
+            display: inline-flex;
+            color: black
+        }
+
+        .menu li a {
+            justify-content: space-around;
+            font-size: 18px;
+            text-decoration: none;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 15px;
+
+        }
+
+        h3 {
+            font-family: fantasy
+        }
+
+        h3 {
+            text-align: left;
+        }
+
+        main {
+            width: 940px;
+            margin: 0 auto;
+        }
+
+        form {
+            margin: 40px 0;
+        }
+
+        form label {
+            display: block;
+        }
+
+        form input {
+            display: block;
+        }
+
+        p {
+            font-family: fantasy;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-logo">
+            <div class="logo-texto">
+
+                <h1> Easy Book </h1>
+            </div>
+
+        </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Inicial </a></li>
+                <li><a href="#">Sobre nós </a></li>
+                <li><a href="itens.html">Itens </a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="contato.html">Contato </a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <form>
+            <h3> Cadastro para ficar por dentro das novidades </h3>
+            <label for="nomesobrenome"> Nome e sobrenome </label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="Email">Email</label>
+            <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+            <label for="telefone"> Telefone </label>
+            <input type="text" id="telefone" class="input-padrao" required placeholder="(xx) x xxxx-xxxx">
+            <input type="submit" value="Enviar cadastro">
+        </form>
+        <div>
+            <h3>Qual horário prefere ser notificado?</h3>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </div>
+    </main>
+
+</body>
+
+</html>
